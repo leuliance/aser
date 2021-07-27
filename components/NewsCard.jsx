@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Box,
   Heading,
@@ -15,6 +14,8 @@ import {
   Container,
   VStack,
 } from '@chakra-ui/react';
+
+import React from 'react';
 
 
 
@@ -51,8 +52,8 @@ const NewsCard = (props) => {
     shadow="md"
     w={'xl'} p="4" flexDir="row" >
     <Image
-        height="120px"
-        width="120px"
+        height="140px"
+        width="160px"
         rounded={4}
         mr={2}
         src={props.img}

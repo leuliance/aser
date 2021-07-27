@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
       <Box w="full" position="fixed" zIndex={999}>
-        {/* <TopNavBar /> */}
+        <TopNavBar />
         <NavBar />
       </Box>
 

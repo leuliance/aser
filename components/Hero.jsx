@@ -1,4 +1,3 @@
-import React from "react";
 import {
   chakra,
   Box,
@@ -9,11 +8,14 @@ import {
   Text,
   Icon,
 } from "@chakra-ui/react";
+
+import React from "react";
+
 import HeroCarousel from "./HeroCarousel";
 
 const Hero = () => {
   return (
-    <Box px={8} py={24} mx="auto">
+    <Box px={8} py={36} mx="auto">
       <Box
         w={{ base: "full", md: 11 / 12, xl: 9 / 12 }}
         mx="auto"
