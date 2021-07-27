@@ -28,7 +28,7 @@ export default function Home() {
       <Divider />
       <News />
       <Footer />
-      <Banner />
+//       <Banner />
     </div>
   )
 }
